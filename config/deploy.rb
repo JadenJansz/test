@@ -28,7 +28,7 @@ namespace :puma do
     task :make_dirs do
         on roles(:app) do
             execute "mkdir #{shared_path}/tmp/sockets -p"
-            xecute "mkdir #{shared_path}/tmp/pids -p"
+            execute "mkdir #{shared_path}/tmp/pids -p"
         end
     end
     before :start, :make_dirs
