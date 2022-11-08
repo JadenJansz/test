@@ -6,7 +6,7 @@ set :repo_url, "https://github.com/JadenJansz/test.git"
 
 set :deploy_to, '/home/ubuntu/demo_app'
 set :use_sudo, true
-set :branch, 'master'
+set :branch, 'main'
 set :linked_files, %w{config/master.key config/database.yml}
 set :rails_env, 'production'
 set :keep_releases, 2
