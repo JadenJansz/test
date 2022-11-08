@@ -4,7 +4,7 @@ lock "~> 3.17.1"
 set :application, "test"
 set :repo_url, "https://github.com/JadenJansz/test.git"
 
-set :deploy_to, '/home/ubuntu/s'
+set :deploy_to, '/home/ubuntu/demo_app'
 set :use_sudo, true
 set :branch, 'master'
 set :linked_files, %w{config/master.key config/database.yml}
