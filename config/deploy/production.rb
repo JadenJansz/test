@@ -54,7 +54,7 @@ server "54.149.23.42",
   roles: %w{web app},
   ssh_options: {
     user: "ubuntu", # overrides user setting above
-    keys: %w(/home/jadenjansz/desktop/server-key/key-value.pem),
+    keys: %w(/home/ubuntu/.ssh/id_rsa.pub),
     forward_agent: true,
     # auth_methods: %w(publickey password)
     # password: "please use keys"
